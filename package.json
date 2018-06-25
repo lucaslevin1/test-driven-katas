@@ -1,15 +1,33 @@
 {
+<<<<<<< HEAD
   "name": "Test-Driven-Katas",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+=======
+  "name": "test-driven-katas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -w ./*.spec.js"
+>>>>>>> 5974525393eebefc2901c87048896d5e69df6f75
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+<<<<<<< HEAD
   "devDependencies": {
     "chai": "^4.1.2"
   }
+=======
+  "dependencies": {
+    "mocha": "^5.2.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2"
+  },
+  "description": ""
+>>>>>>> 5974525393eebefc2901c87048896d5e69df6f75
 }
